@@ -6,5 +6,6 @@ target 'Sadako' do
   # use_frameworks!
 
   # Pods for Sadako
+  pod "GCDWebServer", "~> 3.0"
 
 end

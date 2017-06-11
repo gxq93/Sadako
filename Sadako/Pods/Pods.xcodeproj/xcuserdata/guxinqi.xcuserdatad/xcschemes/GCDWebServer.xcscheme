@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '63237D5F2A62C83A9D8C5944BA3D2DE7'
-               BlueprintName = 'Pods-Sadako'
+               BlueprintIdentifier = '43BB5067C4DA1DAC40F651B15704CB6D'
+               BlueprintName = 'GCDWebServer'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libPods-Sadako.a'>
+               BuildableName = 'libGCDWebServer.a'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

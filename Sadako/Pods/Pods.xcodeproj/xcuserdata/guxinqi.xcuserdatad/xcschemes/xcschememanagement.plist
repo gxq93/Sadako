@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>GCDWebServer.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-Sadako.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -12,7 +17,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>93E2D5E1BD004360B32C3DBA76BC7EDD</key>
+		<key>43BB5067C4DA1DAC40F651B15704CB6D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>63237D5F2A62C83A9D8C5944BA3D2DE7</key>
 		<dict>
 			<key>primary</key>
 			<true/>
