@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		227DD7BF8C68612BC4413B05 /* libPods-Sadako.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C4A7EF612E717A54C10A4561 /* libPods-Sadako.a */; };
+		2E38FAC01EED40DB00D050D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E38FABF1EED40DB00D050D5 /* main.m */; };
+		2E38FAC31EED40DB00D050D5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E38FAC21EED40DB00D050D5 /* AppDelegate.m */; };
+		2E38FAC61EED40DB00D050D5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E38FAC51EED40DB00D050D5 /* ViewController.m */; };
+		2E38FAC91EED40DB00D050D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E38FAC71EED40DB00D050D5 /* Main.storyboard */; };
+		2E38FACB1EED40DB00D050D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E38FACA1EED40DB00D050D5 /* Assets.xcassets */; };
+		2E38FACE1EED40DB00D050D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E38FACC1EED40DB00D050D5 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2E38FABB1EED40DB00D050D5 /* Sadako.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sadako.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E38FABF1EED40DB00D050D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2E38FAC11EED40DB00D050D5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2E38FAC21EED40DB00D050D5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2E38FAC41EED40DB00D050D5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2E38FAC51EED40DB00D050D5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2E38FAC81EED40DB00D050D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2E38FACA1EED40DB00D050D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2E38FACD1EED40DB00D050D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2E38FACF1EED40DB00D050D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58F5E40530E80BC888B300B1 /* Pods-Sadako.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sadako.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sadako/Pods-Sadako.debug.xcconfig"; sourceTree = "<group>"; };
+		604560E6EF579BF88DAB579B /* Pods-Sadako.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sadako.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sadako/Pods-Sadako.release.xcconfig"; sourceTree = "<group>"; };
+		C4A7EF612E717A54C10A4561 /* libPods-Sadako.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Sadako.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E38FAB81EED40DB00D050D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				227DD7BF8C68612BC4413B05 /* libPods-Sadako.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A7A917A8F2B3DC7BB092FB1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C4A7EF612E717A54C10A4561 /* libPods-Sadako.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2E38FAB21EED40DB00D050D5 = {
+			isa = PBXGroup;
+			children = (
+				2E38FABD1EED40DB00D050D5 /* Sadako */,
+				2E38FABC1EED40DB00D050D5 /* Products */,
+				B6CE00F70579C2B4E66502C8 /* Pods */,
+				0A7A917A8F2B3DC7BB092FB1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2E38FABC1EED40DB00D050D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E38FABB1EED40DB00D050D5 /* Sadako.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E38FABD1EED40DB00D050D5 /* Sadako */ = {
+			isa = PBXGroup;
+			children = (
+				2E38FAC11EED40DB00D050D5 /* AppDelegate.h */,
+				2E38FAC21EED40DB00D050D5 /* AppDelegate.m */,
+				2E38FAC41EED40DB00D050D5 /* ViewController.h */,
+				2E38FAC51EED40DB00D050D5 /* ViewController.m */,
+				2E38FAC71EED40DB00D050D5 /* Main.storyboard */,
+				2E38FACA1EED40DB00D050D5 /* Assets.xcassets */,
+				2E38FACC1EED40DB00D050D5 /* LaunchScreen.storyboard */,
+				2E38FACF1EED40DB00D050D5 /* Info.plist */,
+				2E38FABE1EED40DB00D050D5 /* Supporting Files */,
+			);
+			path = Sadako;
+			sourceTree = "<group>";
+		};
+		2E38FABE1EED40DB00D050D5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2E38FABF1EED40DB00D050D5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B6CE00F70579C2B4E66502C8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				58F5E40530E80BC888B300B1 /* Pods-Sadako.debug.xcconfig */,
+				604560E6EF579BF88DAB579B /* Pods-Sadako.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E38FABA1EED40DB00D050D5 /* Sadako */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E38FAD21EED40DB00D050D5 /* Build configuration list for PBXNativeTarget "Sadako" */;
+			buildPhases = (
+				8565752A994A081B575E03BD /* [CP] Check Pods Manifest.lock */,
+				2E38FAB71EED40DB00D050D5 /* Sources */,
+				2E38FAB81EED40DB00D050D5 /* Frameworks */,
+				2E38FAB91EED40DB00D050D5 /* Resources */,
+				11ED6B7B93BFC11A380DC6EB /* [CP] Embed Pods Frameworks */,
+				E9B78AA516AE5AB577BF56F9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sadako;
+			productName = Sadako;
+			productReference = 2E38FABB1EED40DB00D050D5 /* Sadako.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E38FAB31EED40DB00D050D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = GuYi;
+				TargetAttributes = {
+					2E38FABA1EED40DB00D050D5 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2E38FAB61EED40DB00D050D5 /* Build configuration list for PBXProject "Sadako" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2E38FAB21EED40DB00D050D5;
+			productRefGroup = 2E38FABC1EED40DB00D050D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E38FABA1EED40DB00D050D5 /* Sadako */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E38FAB91EED40DB00D050D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E38FACE1EED40DB00D050D5 /* LaunchScreen.storyboard in Resources */,
+				2E38FACB1EED40DB00D050D5 /* Assets.xcassets in Resources */,
+				2E38FAC91EED40DB00D050D5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		11ED6B7B93BFC11A380DC6EB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sadako/Pods-Sadako-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8565752A994A081B575E03BD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E9B78AA516AE5AB577BF56F9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sadako/Pods-Sadako-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E38FAB71EED40DB00D050D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E38FAC61EED40DB00D050D5 /* ViewController.m in Sources */,
+				2E38FAC31EED40DB00D050D5 /* AppDelegate.m in Sources */,
+				2E38FAC01EED40DB00D050D5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2E38FAC71EED40DB00D050D5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E38FAC81EED40DB00D050D5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2E38FACC1EED40DB00D050D5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E38FACD1EED40DB00D050D5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2E38FAD01EED40DB00D050D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2E38FAD11EED40DB00D050D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2E38FAD31EED40DB00D050D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58F5E40530E80BC888B300B1 /* Pods-Sadako.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Sadako/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.guxinqi.Sadako;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2E38FAD41EED40DB00D050D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 604560E6EF579BF88DAB579B /* Pods-Sadako.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Sadako/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.guxinqi.Sadako;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E38FAB61EED40DB00D050D5 /* Build configuration list for PBXProject "Sadako" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E38FAD01EED40DB00D050D5 /* Debug */,
+				2E38FAD11EED40DB00D050D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E38FAD21EED40DB00D050D5 /* Build configuration list for PBXNativeTarget "Sadako" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E38FAD31EED40DB00D050D5 /* Debug */,
+				2E38FAD41EED40DB00D050D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2E38FAB31EED40DB00D050D5 /* Project object */;
+}
