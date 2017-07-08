@@ -1,0 +1,27 @@
+body {
+    margin: 0px;
+    font-family: Courier, monospace;
+    font-size: 0.8em;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+tr {
+    vertical-align: top;
+}
+tr:nth-child(odd) {
+    background-color: #eeeeee;
+}
+td {
+    padding: 2px 10px;
+}
+#footer {
+    text-align: center;
+    margin: 20px 0px;
+    color: darkgray;
+}
+.error {
+    color: red;
+    font-weight: bold;
+}

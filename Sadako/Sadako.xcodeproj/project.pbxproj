@@ -11,9 +11,14 @@
 		2E38FAC01EED40DB00D050D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E38FABF1EED40DB00D050D5 /* main.m */; };
 		2E38FAC31EED40DB00D050D5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E38FAC21EED40DB00D050D5 /* AppDelegate.m */; };
 		2E38FAC61EED40DB00D050D5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E38FAC51EED40DB00D050D5 /* ViewController.m */; };
-		2E38FAC91EED40DB00D050D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E38FAC71EED40DB00D050D5 /* Main.storyboard */; };
 		2E38FACB1EED40DB00D050D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E38FACA1EED40DB00D050D5 /* Assets.xcassets */; };
 		2E38FACE1EED40DB00D050D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E38FACC1EED40DB00D050D5 /* LaunchScreen.storyboard */; };
+		2E38FADB1EED4B1000D050D5 /* Log.css in Resources */ = {isa = PBXBuildFile; fileRef = 2E38FADA1EED4B1000D050D5 /* Log.css */; };
+		2E38FADD1EED4BEA00D050D5 /* Log.js in Resources */ = {isa = PBXBuildFile; fileRef = 2E38FADC1EED4BEA00D050D5 /* Log.js */; };
+		2E38FAE01EED4E0500D050D5 /* LogMiddleWare.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E38FADF1EED4E0500D050D5 /* LogMiddleWare.m */; };
+		2E38FAE51EED511700D050D5 /* SystemLogManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E38FAE21EED511700D050D5 /* SystemLogManager.m */; };
+		2E38FAE61EED511700D050D5 /* SystemLogMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E38FAE41EED511700D050D5 /* SystemLogMessage.m */; };
+		2EA24C921EF8216E0059A7BD /* SadakoServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EA24C911EF8216E0059A7BD /* SadakoServer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,10 +28,21 @@
 		2E38FAC21EED40DB00D050D5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		2E38FAC41EED40DB00D050D5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		2E38FAC51EED40DB00D050D5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		2E38FAC81EED40DB00D050D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2E38FACA1EED40DB00D050D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E38FACD1EED40DB00D050D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2E38FACF1EED40DB00D050D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E38FADA1EED4B1000D050D5 /* Log.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = Log.css; sourceTree = "<group>"; };
+		2E38FADC1EED4BEA00D050D5 /* Log.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Log.js; sourceTree = "<group>"; };
+		2E38FADE1EED4E0500D050D5 /* LogMiddleWare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogMiddleWare.h; sourceTree = "<group>"; };
+		2E38FADF1EED4E0500D050D5 /* LogMiddleWare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogMiddleWare.m; sourceTree = "<group>"; };
+		2E38FAE11EED511700D050D5 /* SystemLogManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemLogManager.h; sourceTree = "<group>"; };
+		2E38FAE21EED511700D050D5 /* SystemLogManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystemLogManager.m; sourceTree = "<group>"; };
+		2E38FAE31EED511700D050D5 /* SystemLogMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemLogMessage.h; sourceTree = "<group>"; };
+		2E38FAE41EED511700D050D5 /* SystemLogMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystemLogMessage.m; sourceTree = "<group>"; };
+		2EA24C8F1EF2CF6B0059A7BD /* SadakoPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SadakoPrefixHeader.pch; sourceTree = "<group>"; };
+		2EA24C901EF8216E0059A7BD /* SadakoServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SadakoServer.h; path = Sadako/SadakoSever/SadakoServer.h; sourceTree = SOURCE_ROOT; };
+		2EA24C911EF8216E0059A7BD /* SadakoServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SadakoServer.m; path = Sadako/SadakoSever/SadakoServer.m; sourceTree = SOURCE_ROOT; };
+		2EA24C931EF821C30059A7BD /* SadakoProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SadakoProtocol.h; path = Sadako/SadakoProtocol.h; sourceTree = SOURCE_ROOT; };
 		58F5E40530E80BC888B300B1 /* Pods-Sadako.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sadako.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sadako/Pods-Sadako.debug.xcconfig"; sourceTree = "<group>"; };
 		604560E6EF579BF88DAB579B /* Pods-Sadako.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sadako.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sadako/Pods-Sadako.release.xcconfig"; sourceTree = "<group>"; };
 		C4A7EF612E717A54C10A4561 /* libPods-Sadako.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Sadako.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -77,10 +93,8 @@
 				2E38FAC21EED40DB00D050D5 /* AppDelegate.m */,
 				2E38FAC41EED40DB00D050D5 /* ViewController.h */,
 				2E38FAC51EED40DB00D050D5 /* ViewController.m */,
-				2E38FAC71EED40DB00D050D5 /* Main.storyboard */,
-				2E38FACA1EED40DB00D050D5 /* Assets.xcassets */,
-				2E38FACC1EED40DB00D050D5 /* LaunchScreen.storyboard */,
-				2E38FACF1EED40DB00D050D5 /* Info.plist */,
+				2E38FAD51EED450700D050D5 /* SadakoSever */,
+				2E38FAD61EED450C00D050D5 /* LogServer */,
 				2E38FABE1EED40DB00D050D5 /* Supporting Files */,
 			);
 			path = Sadako;
@@ -89,9 +103,39 @@
 		2E38FABE1EED40DB00D050D5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2E38FACA1EED40DB00D050D5 /* Assets.xcassets */,
+				2E38FACC1EED40DB00D050D5 /* LaunchScreen.storyboard */,
+				2E38FACF1EED40DB00D050D5 /* Info.plist */,
 				2E38FABF1EED40DB00D050D5 /* main.m */,
+				2EA24C8F1EF2CF6B0059A7BD /* SadakoPrefixHeader.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2E38FAD51EED450700D050D5 /* SadakoSever */ = {
+			isa = PBXGroup;
+			children = (
+				2EA24C901EF8216E0059A7BD /* SadakoServer.h */,
+				2EA24C911EF8216E0059A7BD /* SadakoServer.m */,
+				2EA24C931EF821C30059A7BD /* SadakoProtocol.h */,
+			);
+			name = SadakoSever;
+			path = HttpSever;
+			sourceTree = "<group>";
+		};
+		2E38FAD61EED450C00D050D5 /* LogServer */ = {
+			isa = PBXGroup;
+			children = (
+				2E38FADA1EED4B1000D050D5 /* Log.css */,
+				2E38FADC1EED4BEA00D050D5 /* Log.js */,
+				2E38FADE1EED4E0500D050D5 /* LogMiddleWare.h */,
+				2E38FADF1EED4E0500D050D5 /* LogMiddleWare.m */,
+				2E38FAE11EED511700D050D5 /* SystemLogManager.h */,
+				2E38FAE21EED511700D050D5 /* SystemLogManager.m */,
+				2E38FAE31EED511700D050D5 /* SystemLogMessage.h */,
+				2E38FAE41EED511700D050D5 /* SystemLogMessage.m */,
+			);
+			path = LogServer;
 			sourceTree = "<group>";
 		};
 		B6CE00F70579C2B4E66502C8 /* Pods */ = {
@@ -137,6 +181,7 @@
 				TargetAttributes = {
 					2E38FABA1EED40DB00D050D5 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = WTF2JP5YYT;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -165,8 +210,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E38FACE1EED40DB00D050D5 /* LaunchScreen.storyboard in Resources */,
+				2E38FADB1EED4B1000D050D5 /* Log.css in Resources */,
 				2E38FACB1EED40DB00D050D5 /* Assets.xcassets in Resources */,
-				2E38FAC91EED40DB00D050D5 /* Main.storyboard in Resources */,
+				2E38FADD1EED4BEA00D050D5 /* Log.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,23 +271,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E38FAE61EED511700D050D5 /* SystemLogMessage.m in Sources */,
 				2E38FAC61EED40DB00D050D5 /* ViewController.m in Sources */,
+				2E38FAE51EED511700D050D5 /* SystemLogManager.m in Sources */,
+				2EA24C921EF8216E0059A7BD /* SadakoServer.m in Sources */,
 				2E38FAC31EED40DB00D050D5 /* AppDelegate.m in Sources */,
 				2E38FAC01EED40DB00D050D5 /* main.m in Sources */,
+				2E38FAE01EED4E0500D050D5 /* LogMiddleWare.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		2E38FAC71EED40DB00D050D5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2E38FAC81EED40DB00D050D5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2E38FACC1EED40DB00D050D5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -348,6 +390,8 @@
 			baseConfigurationReference = 58F5E40530E80BC888B300B1 /* Pods-Sadako.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WTF2JP5YYT;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Sadako/SadakoPrefixHeader.pch";
 				INFOPLIST_FILE = Sadako/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.guxinqi.Sadako;
@@ -360,6 +404,8 @@
 			baseConfigurationReference = 604560E6EF579BF88DAB579B /* Pods-Sadako.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WTF2JP5YYT;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Sadako/SadakoPrefixHeader.pch";
 				INFOPLIST_FILE = Sadako/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.guxinqi.Sadako;
@@ -386,6 +432,7 @@
 				2E38FAD41EED40DB00D050D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
